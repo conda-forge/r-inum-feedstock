@@ -1,4 +1,4 @@
-{% set version = '1.0-0' %}
+{% set version = "1.0-1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/inum_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/inum/inum_{{ version }}.tar.gz
-  sha256: f532817a426b6a02d5ceffe01810d2103432a8defb68a0cae4318246a61a01ac
+  sha256: 3c2f94c13c03607e05817e4859595592068b55e810fed94e29bc181ad248a099
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
