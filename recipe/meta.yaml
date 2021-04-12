@@ -1,4 +1,4 @@
-{% set version = "1.0-3" %}
+{% set version = "1.0-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/inum_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/inum/inum_{{ version }}.tar.gz
-  sha256: 249e795293554ebb30e2c80c23233dafa8617a9481ed9d7085535fbac90ae1eb
+  sha256: 5febef69c43a4b95b376c1418550a949d988a5f26b1383ca01c9728a94fc13ce
 
 build:
   merge_build_host: true  # [win]
