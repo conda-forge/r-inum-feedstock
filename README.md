@@ -1,11 +1,11 @@
-About r-inum
-============
+About r-inum-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-inum-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=inum
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-inum-feedstock/blob/main/LICENSE.txt)
 
 Summary: Enum-type representation of vectors and representation of intervals, including a method of coercing variables in data frames.
 
